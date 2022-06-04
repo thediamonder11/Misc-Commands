@@ -1,0 +1,16 @@
+name: "Commands"
+version: "0.1.2-SNAPSHOT"
+main: "vb.$commands.PluginMain"
+api-version: 1.13
+authors: [thediamonder11]
+prefix: "Misc Commands"
+website: "mysticweb.ml"
+commands:
+  hello:
+    aliases: [hi]
+    usage: "A basic hello command"
+  die:
+    aliases: [death]
+    description: "Kills you, Hopefully"
+    usage: "Do "/die" or "/death""
+permissions:
